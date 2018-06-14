@@ -147,9 +147,6 @@
 
 
 
-
-
-
 body, html{
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
@@ -466,12 +463,12 @@ a.down-btn span.fa.fa-angle-down {
     color: #ffffff;
   }
 
-a.btn.go-to-btn{
+a.btn.go-to-btn {
 
 	text-transform: uppercase;
 	border: 1px solid hotpink;
 	word-spacing: 2px;
-  margin-top: 26px;
+  margin-top: 24px;
 	padding: 7px 30px;
 	border-radius: 2px;
 	font-size: 20px;
