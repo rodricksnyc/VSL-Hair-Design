@@ -467,6 +467,7 @@ a.down-btn span.fa.fa-angle-down {
   }
 
 a.btn.go-to-btn{
+
 	text-transform: uppercase;
 	border: 1px solid hotpink;
 	word-spacing: 2px;
@@ -481,22 +482,24 @@ a.btn.go-to-btn:hover{
 	color: #282f35;
 }
 
-.nopadding{
+.nopadding {
 	padding: 0;
 	margin: 0;
 }
 
 #pics {
-  margin-left: 60px;
+  margin-left: 68px;
 }
 
 
 .portfolio-item .hover-bg{
-	width: 240px;
-  height: 240px;
+	width: 220px;
+  height: 220px;
   /* margin-left: 1em; */
 	overflow: hidden;
 	position: relative;
+  border: 1px solid black;
+  margin-bottom: 5px;
 }
 
 .hover-bg .hover-text {
@@ -800,7 +803,14 @@ nav#footer{
 #footer a:hover{
 	color: hotpink;}
 
-
 .page-scroll {
   font-size: 22px;
+}
+
+.navmenu {
+  width: 200px;
+}
+
+.pull-right {
+  margin-top: -50px;
 }
