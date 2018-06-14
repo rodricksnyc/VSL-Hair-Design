@@ -326,7 +326,7 @@ z-index: 10;
 }
 .navmenu-default,
 .navbar-default .navbar-offcanvas {
-	background-color: black;
+	background-color: #282f35;
 	border-color: #1E2429;
 	border: 0;
 }
@@ -407,7 +407,7 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #overview-video .overlay{
-	background: rgba(34, 34, 34, 0.55);
+	background: rgba(34, 34, 34, 0.45);
 	height: auto;
 	min-height: 200px;
 	padding: 12% 0 ;
@@ -675,7 +675,7 @@ ul.clients li{
 }
 
 #contact{
-	background: black;
+	background: #282f35;
 	padding: 100px 0;
 	color: #ffffff;
 }
@@ -784,7 +784,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 nav#footer{
-	background: black;
+	background: #282f35;
 	padding: 40px 0;
 	color: #ffffff;
 	border-bottom: 5px solid hotpink;
