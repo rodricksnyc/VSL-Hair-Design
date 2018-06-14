@@ -218,7 +218,8 @@ a:focus{
 	text-decoration: none;
 }
 #home{
-	background: url(../img/sample.jpg);
+
+	background: url(../img/one-01.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -228,6 +229,16 @@ a:focus{
 	padding-top: 20px;
 	color: #ffffff;
 }
+#home .overlay{
+	background: rgba(34, 34, 34, 0.60);
+  height: auto;
+  min-height: 500px;
+  padding-top: 20px;
+  color: #ffffff;
+  margin-top: -20px;
+}
+
+
 #home a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
 	border: 1px solid hotpink;
@@ -315,7 +326,7 @@ z-index: 10;
 }
 .navmenu-default,
 .navbar-default .navbar-offcanvas {
-	background-color: #1E2429;
+	background-color: black;
 	border-color: #1E2429;
 	border: 0;
 }
@@ -387,7 +398,7 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #overview-video {
-	background: url(../img/products.png);
+	background: url(../img/three.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -396,7 +407,7 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #overview-video .overlay{
-	background: rgba(34, 34, 34, 0.85);
+	background: rgba(34, 34, 34, 0.55);
 	height: auto;
 	min-height: 200px;
 	padding: 12% 0 ;
@@ -440,9 +451,20 @@ a.down-btn span.fa.fa-angle-down {
 .space{ padding-top: 40px; }
 
 #cta{
-	background: #282f35;
-	padding: 4% 0;
+  background: url(../img/four.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  text-align: center;
 }
+#cta .overlay {
+    background: rgba(34, 34, 34, 0.55);
+    height: auto;
+    min-height: 200px;
+    padding: 10% 0;
+    color: #ffffff;
+  }
 
 a.btn.go-to-btn{
 	text-transform: uppercase;
@@ -653,7 +675,7 @@ ul.clients li{
 }
 
 #contact{
-	background: #282f35;
+	background: black;
 	padding: 100px 0;
 	color: #ffffff;
 }
@@ -762,7 +784,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 nav#footer{
-	background: #282f35;
+	background: black;
 	padding: 40px 0;
 	color: #ffffff;
 	border-bottom: 5px solid hotpink;
@@ -777,3 +799,8 @@ nav#footer{
 }
 #footer a:hover{
 	color: hotpink;}
+
+
+.page-scroll {
+  font-size: 22px;
+}
