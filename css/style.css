@@ -469,16 +469,19 @@ a.btn.go-to-btn {
 	text-transform: uppercase;
 	border: 1px solid hotpink;
 	word-spacing: 2px;
-  margin-top: 24px;
-	padding: 7px 30px;
+  /* margin-top: 24px; */
+	padding: 7px 5px;
 	border-radius: 2px;
-	font-size: 20px;
+	font-size: 16px;
 	color: #ffffff;
 	transition: all 0.5s;
 }
 a.btn.go-to-btn:hover{
 	background: hotpink;
 	color: #282f35;
+}
+.center-block {
+  width: 200px;
 }
 
 .nopadding {
