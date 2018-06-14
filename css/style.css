@@ -25,6 +25,7 @@ h2{
 	text-transform: uppercase;
 	font-size: 20px;
   color: hotpink;
+  margin-top: -10px;
 }
 .address {
   color: white;
@@ -75,8 +76,8 @@ a:focus{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
-	min-height: 710px;
-	padding-top: 60px;
+	min-height: 500px;
+	padding-top: 20px;
 	color: #ffffff;
 }
 #home a.down-btn span.fa.fa-angle-down {
@@ -90,7 +91,7 @@ a:focus{
 	cursor: pointer;
 }
 .content{
-	padding-top: 16%;
+	padding-top: 4%;
 }
 .header-text.btn{
 	border: 1px solid #ffffff;
@@ -259,17 +260,20 @@ a.down-btn span.fa.fa-angle-down {
 	text-align: center;
 	margin: auto 0;
 }
-
+.big {
+  font-size: 32px;
+}
 .service{
 	/* border: 1px solid #222; */
 	/* margin-top: 20px; */
+  margin-top: -20px;
 	margin-bottom: 0px;
 	transition: all 0.3s;
 	position: relative;
 	padding: 60px 25px;
 }
 .service:hover>h4,
-.service:hover>span.fa{
+.service:hover>span.fa {
 	color: hotpink;
 }
 .service:hover{
@@ -312,8 +316,15 @@ a.btn.go-to-btn:hover{
 	margin: 0;
 }
 
+#pics {
+  margin-left: 60px;
+}
+
+
 .portfolio-item .hover-bg{
-	height: 280px;
+	width: 240px;
+  height: 240px;
+  /* margin-left: 1em; */
 	overflow: hidden;
 	position: relative;
 }
@@ -502,12 +513,12 @@ ul.clients li{
 ul.social li{
 	display: inline-block;
 	margin-right: 20px;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 ul.social li a{
-	color: #ffffff;
-	font-size: 16px;
+	color: hotpink;
+	font-size: 35px;
 }
 
 address strong{
