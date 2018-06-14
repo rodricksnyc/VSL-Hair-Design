@@ -454,11 +454,12 @@ a.down-btn span.fa.fa-angle-down {
   background-repeat: no-repeat;
   background-attachment: scroll;
   text-align: center;
+  min-height: 100px;
 }
 #cta .overlay {
     background: rgba(34, 34, 34, 0.55);
     height: auto;
-    min-height: 200px;
+    min-height: 100px;
     padding: 10% 0;
     color: #ffffff;
   }
