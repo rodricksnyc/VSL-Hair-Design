@@ -227,7 +227,7 @@ a:focus{
 	color: #ffffff;
 }
 #home .overlay{
-	background: rgba(34, 34, 34, 0.60);
+	background: rgba(34, 34, 34, 0.30);
   height: auto;
   min-height: 500px;
   padding-top: 20px;
@@ -380,7 +380,7 @@ background-color: transparent;
 #services,
 #works,
 #about-us{
-	padding: 60px 0;
+padding: 30px 0;
 }
 
 a.down-btn span.fa.fa-angle-down {
@@ -404,7 +404,7 @@ a.down-btn span.fa.fa-angle-down {
 }
 
 #overview-video .overlay{
-	background: rgba(34, 34, 34, 0.45);
+	background: rgba(34, 34, 34, 0.25);
 	height: auto;
 	min-height: 200px;
 	padding: 12% 0 ;
@@ -448,7 +448,7 @@ a.down-btn span.fa.fa-angle-down {
 .space{ padding-top: 40px; }
 
 #cta{
-  background: url(../img/four.jpg);
+  background: url(../img/new.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -457,7 +457,7 @@ a.down-btn span.fa.fa-angle-down {
   min-height: 100px;
 }
 #cta .overlay {
-    background: rgba(34, 34, 34, 0.55);
+    background: rgba(34, 34, 34, 0.25);
     height: auto;
     min-height: 100px;
     padding: 10% 0;
@@ -472,16 +472,18 @@ a.btn.go-to-btn {
   /* margin-top: 24px; */
 	padding: 7px 5px;
 	border-radius: 2px;
-	font-size: 16px;
-	color: #ffffff;
+	font-size: 1px;
+	color: black;
 	transition: all 0.5s;
 }
 a.btn.go-to-btn:hover{
 	background: hotpink;
-	color: #282f35;
+	color: white;
 }
 .center-block {
   width: 200px;
+  height: 40px;
+  color: white;
 }
 
 .nopadding {
@@ -558,7 +560,7 @@ a.btn.go-to-btn:hover{
 a.btn.read-more-btn{
 	text-transform: uppercase;
 	background: hotpink;
-	color: #282f35;
+	/* color: #282f35; */
 	word-spacing: 2px;
 	padding: 7px 30px;
 	border-radius: 2px;
@@ -587,6 +589,16 @@ a.btn.send-btn:hover{
 	color: #ffffff;
 }
 
+.btn-transparent {
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid hotpink;
+  color: white;
+}
+.pink {
+  color: white;
+  font-size: 22px;
+}
 #clients {
 	background: url(../img/nail.png);
 	background-size: cover;
@@ -790,7 +802,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 nav#footer{
 	background: #282f35;
-	padding: 40px 0;
+	/* padding: 40px 0; */
 	color: #ffffff;
 	border-bottom: 5px solid hotpink;
 }
