@@ -448,12 +448,12 @@ a.down-btn span.fa.fa-angle-down {
 .space{ padding-top: 40px; }
 
 #cta{
-  background: url(../img/new.jpg);
+  /* background: url(../img/new.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  text-align: center;
+  text-align: center; */
   min-height: 100px;
 }
 #cta .overlay {
@@ -505,6 +505,13 @@ a.btn.go-to-btn:hover{
   border: 1px solid black;
   margin-bottom: 5px;
 }
+
+.portfolio-item-2 .hover-bg{
+	height: 280px;
+	overflow: hidden;
+	position: relative;
+}
+
 
 .hover-bg .hover-text {
 	position: absolute;
