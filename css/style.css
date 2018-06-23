@@ -188,6 +188,7 @@ h4{
 	text-transform: uppercase;
 	font-size: 16px;
 	word-spacing: 2px;
+	font-weight: 900;
 }
 h5{
 	text-transform: uppercase;
@@ -250,7 +251,7 @@ a:focus{
 	padding-top: 4%;
 }
 .header-text.btn{
-	border: 1px solid #ffffff;
+	border: 1px solid #0066ff;
 	border-radius: 0;
 	padding: 10px 30px;
 	height: 100px;
@@ -515,7 +516,7 @@ a.btn.go-to-btn:hover{
 	overflow: hidden;
 	position: relative;
 	margin-right: .1em;
-	 border-bottom: 1px solid #0066ff;
+
 }
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
