@@ -163,13 +163,13 @@ h1{
 	font-weight: 700;
 	font-size: 46px;
 }
-.hotpink {
-  color: hotpink;
+.#0066ff {
+  color: #0066ff;
 }
 h2{
 	text-transform: uppercase;
 	font-size: 20px;
-  color: hotpink;
+  color: #0066ff;
   margin-top: -10px;
 }
 .address {
@@ -182,7 +182,7 @@ h3{
 	line-height: 26px;
 }
 a {
-  color: hotpink;
+  color: #0066ff;
 }
 h4{
 	text-transform: uppercase;
@@ -206,12 +206,12 @@ p{
 }
 hr{
 	width: 50px;
-	border-color: hotpink;
+	border-color: #0066ff;
 }
 a {color: #222222}
 a:hover,
 a:focus{
-	color: hotpink;
+	color: #0066ff;
 	text-decoration: none;
 }
 #home{
@@ -238,7 +238,7 @@ a:focus{
 
 #home a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
-	border: 1px solid hotpink;
+	border: 1px solid #0066ff;
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
@@ -331,7 +331,7 @@ z-index: 10;
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover,
 .navmenu-default .navmenu-nav>li>a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav>li>a:focus {
-color: hotpink;
+color: #0066ff;
 background-color: transparent;
 }
 .nav > li {
@@ -347,7 +347,7 @@ font-size: 12px;
 line-height: 30px;
 }
 nav#menu span.fa.fa-bars:hover {
-color: hotpink;
+color: #0066ff;
 }
 .navmenu-default .navmenu-nav>.active>a,
 .navbar-default .navbar-offcanvas .navmenu-nav>.active>a,
@@ -355,14 +355,14 @@ color: hotpink;
 .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover,
 .navmenu-default .navmenu-nav>.active>a:focus,
 .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus {
-color: hotpink;
+color: #0066ff;
 background-color: transparent;
 }
 .white {
    color: white;
 }
 .close:hover{
-	background: hotpink;
+	background: #0066ff;
 	color: #ffffff;
 	opacity: 1;
 }
@@ -385,12 +385,12 @@ padding: 30px 0;
 
 a.down-btn span.fa.fa-angle-down {
 	font-size: 26px;
-	border: 1px solid hotpink;
+	border: 1px solid #0066ff;
 	border-radius: 2px;
 	padding: 7px 5px;
 	position: relative;
 	cursor: pointer;
-	color: hotpink;
+	color: #0066ff;
 	margin-top: 30px;
 }
 
@@ -430,10 +430,10 @@ a.down-btn span.fa.fa-angle-down {
 }
 .service:hover>h4,
 .service:hover>span.fa {
-	color: hotpink;
+	color: #0066ff;
 }
 .service:hover{
-	border-color: hotpink;
+	border-color: #0066ff;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	cursor: pointer;
@@ -467,7 +467,7 @@ a.down-btn span.fa.fa-angle-down {
 a.btn.go-to-btn {
 
 	text-transform: uppercase;
-	border: 1px solid hotpink;
+	border: 1px solid #0066ff;
 	word-spacing: 2px;
   /* margin-top: 24px; */
 	padding: 7px 5px;
@@ -477,7 +477,7 @@ a.btn.go-to-btn {
 	transition: all 0.5s;
 }
 a.btn.go-to-btn:hover{
-	background: hotpink;
+	background: #0066ff;
 	color: white;
 }
 .center-block {
@@ -560,13 +560,13 @@ a.btn.go-to-btn:hover{
 }
 
 .hover-text p.lead{
-	color: hotpink;
+	color: #0066ff;
 }
 
 
 a.btn.read-more-btn{
 	text-transform: uppercase;
-	background: hotpink;
+	background: #0066ff;
 	/* color: #282f35; */
 	word-spacing: 2px;
 	padding: 7px 30px;
@@ -582,7 +582,7 @@ a.btn.read-more-btn:hover{
 
 a.btn.send-btn{
 	text-transform: uppercase;
-	background: hotpink;
+	background: #0066ff;
 	color: #282f35;
 	padding: 15px 35px;
 	border-radius: 0;
@@ -592,14 +592,14 @@ a.btn.send-btn{
 }
 a.btn.send-btn:hover{
 	background: transparent;
-	border: 1px solid hotpink;
+	border: 1px solid #0066ff;
 	color: #ffffff;
 }
 
 .btn-transparent {
   text-transform: uppercase;
   background: transparent;
-  border: 1px solid hotpink;
+  border: 1px solid #0066ff;
   color: white;
 }
 .pink {
@@ -647,13 +647,13 @@ ul.clients li{
 .team:hover.hire,
 .team.hire{
 	height: 340px;
-	border-color: hotpink;
-	color: hotpink;
+	border-color: #0066ff;
+	color: #0066ff;
 	opacity: 1;
 }
 
 .team.hire>a{
-	color: hotpink;
+	color: #0066ff;
 }
 .team hr{
 	border-width: 2px;
@@ -695,7 +695,7 @@ ul.clients li{
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 0;
-	background: hotpink;
+	background: #0066ff;
 }
 
 #contact{
@@ -711,7 +711,7 @@ ul.social li{
 }
 
 ul.social li a{
-	color: hotpink;
+	color: #0066ff;
 	font-size: 35px;
 }
 
@@ -729,7 +729,7 @@ address:before{
   	text-rendering: auto;
   	-webkit-font-smoothing: antialiased;
   	-moz-osx-font-smoothing: grayscale;
-  	color: hotpink;
+  	color: #0066ff;
   	vertical-align: middle;
   	margin-right: 15px;
   	margin-left: -30px;
@@ -772,7 +772,7 @@ color: white;
 }
 
 #contact .form-control:focus {
-	border-color: hotpink;
+	border-color: #0066ff;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -811,10 +811,10 @@ nav#footer{
 	background: #282f35;
 	/* padding: 40px 0; */
 	color: #ffffff;
-	border-bottom: 5px solid hotpink;
+	border-bottom: 5px solid #0066ff;
 }
 #footer span.fa{
-	color: hotpink;
+	color: #0066ff;
 	font-size: 26px;
 	margin-left: 10px;
 }
@@ -822,7 +822,7 @@ nav#footer{
 	color: #ffffff;
 }
 #footer a:hover{
-	color: hotpink;}
+	color: #0066ff;}
 
 .page-scroll {
   font-size: 22px;
