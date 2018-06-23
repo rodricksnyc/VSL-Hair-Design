@@ -493,8 +493,11 @@ a.btn.go-to-btn:hover{
 
 #pics {
   margin-left: 68px;
-}
 
+}
+.img-responsive {
+	border-bottom: 1px solid #0066ff;
+}
 
 .portfolio-item .hover-bg{
 	width: 220px;
@@ -502,16 +505,26 @@ a.btn.go-to-btn:hover{
   /* margin-left: 1em; */
 	overflow: hidden;
 	position: relative;
-  border: 1px solid black;
+ border-bottom: 1px solid #0066ff;
   margin-bottom: 5px;
+
 }
 
 .portfolio-item-2 .hover-bg{
-	height: 280px;
+	height: 300px;
 	overflow: hidden;
 	position: relative;
+	margin-right: .1em;
+	border: 1px solid #0066ff;
 }
 
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  
+
+}
 
 .hover-bg .hover-text {
 	position: absolute;
