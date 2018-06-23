@@ -505,7 +505,7 @@ a.btn.go-to-btn:hover{
   /* margin-left: 1em; */
 	overflow: hidden;
 	position: relative;
- border-bottom: 1px solid #0066ff;
+
   margin-bottom: 5px;
 
 }
@@ -515,14 +515,14 @@ a.btn.go-to-btn:hover{
 	overflow: hidden;
 	position: relative;
 	margin-right: .1em;
-	border: 1px solid #0066ff;
+	 border-bottom: 1px solid #0066ff;
 }
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
     max-width: 100%;
     height: auto;
-  
+    border: 1px solid #0066ff;
 
 }
 
