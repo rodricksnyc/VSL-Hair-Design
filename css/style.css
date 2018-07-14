@@ -222,14 +222,14 @@ a:focus{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: auto;
-	min-height: 400px;
+	min-height: 500px;
 	padding-top: 20px;
 	color: #ffffff;
 }
 #home .overlay{
 	background: rgba(34, 34, 34, 0.30);
   height: auto;
-  min-height: 400px;
+  min-height: 500px;
   padding-top: 20px;
   color: #ffffff;
   margin-top: -20px;
