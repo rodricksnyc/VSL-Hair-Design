@@ -216,8 +216,7 @@ a:focus{
 	text-decoration: none;
 }
 #home{
-
-	background: url(../img/one-01.jpg);
+	background: black;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -324,7 +323,7 @@ z-index: 10;
 }
 .navmenu-default,
 .navbar-default .navbar-offcanvas {
-	background-color: #282f35;
+	background-color: black;
 	border-color: #1E2429;
 	border: 0;
 }
@@ -395,6 +394,23 @@ a.down-btn span.fa.fa-angle-down {
 	margin-top: 30px;
 }
 
+#overview-video2 {
+	background: url(../img/one-01.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	text-align: center;
+
+}
+#overview-video2 .overlay{
+	background: rgba(34, 34, 34, 0.25);
+	height: auto;
+	min-height: 200px;
+	padding: 12% 0 ;
+}
+
+
 #overview-video {
 	background: url(../img/three.jpg);
 	background-size: cover;
@@ -403,6 +419,7 @@ a.down-btn span.fa.fa-angle-down {
 	background-attachment: scroll;
 	text-align: center;
 }
+
 
 #overview-video .overlay{
 	background: rgba(34, 34, 34, 0.25);
@@ -581,7 +598,7 @@ a.btn.go-to-btn:hover{
 a.btn.read-more-btn{
 	text-transform: uppercase;
 	background: #0066ff;
-	/* color: #282f35; */
+	/* color: black; */
 	word-spacing: 2px;
 	padding: 7px 30px;
 	border-radius: 2px;
@@ -597,7 +614,7 @@ a.btn.read-more-btn:hover{
 a.btn.send-btn{
 	text-transform: uppercase;
 	background: #0066ff;
-	color: #282f35;
+	color: black;
 	padding: 15px 35px;
 	border-radius: 0;
 	font-size: 12px;
@@ -713,7 +730,7 @@ ul.clients li{
 }
 
 #contact{
-	background: #282f35;
+	background: black;
 	padding: 100px 0;
 	color: #ffffff;
 }
@@ -822,7 +839,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 
 nav#footer{
-	background: #282f35;
+	background: black;
 	/* padding: 40px 0; */
 	color: #ffffff;
 	border-bottom: 5px solid #0066ff;
